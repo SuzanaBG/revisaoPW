@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttonVoltarProximo {
+  height: 50px;
+  width: 150px;
+}
+
+.buttons1 {
+  display: grid;
+  grid-template-columns: 150px 290px 150px;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.buttonPag {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buttons2 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  gap: 10px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;        
+    left: 0;
+    width: 100%; 
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(49, 49, 49);
+}
+
+.contador, .home {
+    width: 500px;
+    height: 50px; /* Adicione uma altura para que a centralização seja visível */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.divButtons {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    align-items: center; 
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

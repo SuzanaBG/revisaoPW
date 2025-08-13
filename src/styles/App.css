@@ -1,0 +1,26 @@
+.divButtons {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  width: max-content; /* largura do conteúdo */
+  margin: 0 auto;
+}
+
+button {
+  width: 500px;
+  display: flex; /* Adicione esta linha */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column; /* Organize os itens em uma coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura total da viewport */
+  text-align: center;
+}
